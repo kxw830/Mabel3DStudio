@@ -1,82 +1,69 @@
-/* General Styling */
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f7f7f7;
 }
 
-.profile-container {
+.main-container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.profile-header {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.profile-logo {
-  width: 150px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.profile-header h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.profile-header h2 {
-  font-size: 1.5rem;
-  color: #666;
-}
-
-.profile-content {
+.header {
   background-color: #ffffff;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.profile-img {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-.profile-description {
-  margin-bottom: 20px;
-}
-
-.profile-description h3 {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.profile-description p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.6;
-}
-
-.profile-contact {
   text-align: center;
+  padding: 50px 0;
+  border-bottom: 2px solid #e0e0e0;
 }
 
-.profile-contact h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
+.logo {
+  width: 120px;
+  height: auto;
 }
 
-.contact-buttons {
+.header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.profile-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  width: 60%;
+}
+
+.profile-info h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.profile-info p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 15px;
 }
 
@@ -84,11 +71,13 @@ body {
   display: flex;
   align-items: center;
   padding: 12px 20px;
+  background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 8px;
-  text-decoration: none;
   color: #333;
-  background-color: #fff;
+  text-decoration: none;
+  width: 200px;
+  font-size: 1.1rem;
   transition: background-color 0.3s ease;
 }
 
