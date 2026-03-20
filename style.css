@@ -48,7 +48,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  border-bottom: 5px solid #ffffff;  /* Add bottom border (outline) */
+  border-bottom: 2px solid #ffffff;  /* Add bottom border (outline) */
 }
 .header-image {
   width: 100%;
