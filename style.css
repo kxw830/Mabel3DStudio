@@ -36,33 +36,49 @@ body {
 
 .profile-logo-wrap {
   text-align: center;
-  margin-top: 40px;
+  margin-top: -50px;
   margin-bottom: 40px;
   padding: 0 10px;
 }
 
-.profile-logo {
+/* .profile-logo {
   width: 100%;
   max-width: 180px;
   height: auto;
   display: inline-block;
   border-radius: 50%;
-  border: 4px solid #fff; /* Adds a border around the image */
-  margin-top: 10px; /* Adjust this for more space if necessary */
+  border: 4px solid #fff;
+  margin-top: 10px;
+} */
+.profile-logo {
+  width: 120px; /* Adjust this to make the profile picture smaller */
+  height: 120px; /* Adjust height to match */
+  border-radius: 50%; /* Keep the circular shape */
+  object-fit: cover; /* Ensures the image fits inside the circle */
 }
 
-.profile-name {
+/* .profile-name {
   margin: 10px 0 6px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+} */
+.profile-name {
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
 }
 
-.profile-tagline {
+/* .profile-tagline {
   margin: 0;
   color: #d8dbe3;
   font-size: 1.05rem;
   line-height: 1.4;
+  text-align: center;
+} */
+.profile-tagline {
+  font-size: 1.05rem;
+  color: #d8dbe3;
   text-align: center;
 }
 
