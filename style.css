@@ -52,7 +52,7 @@ body {
 } */
 .profile-logo {
   width: 120px; /* Adjust this to make the profile picture smaller */
-  height: 120px; /* Adjust height to match */
+  height: 150px; /* Adjust height to match */
   border-radius: 50%; /* Keep the circular shape */
   object-fit: cover; /* Ensures the image fits inside the circle */
 }
